@@ -191,6 +191,7 @@ body {
     margin: 0 auto 1.5rem;
   }
   .rating-selected {
+    font-size: 0.875rem;
     padding: 0.3125rem 0.75rem;
   }
   .card-thanks-title {
