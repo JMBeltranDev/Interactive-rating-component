@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="./main.js"></script>
+
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+  <main class="main-container">
+
+    <article class="card-rating">
+      <div class="wrapper-star"><img src="./images/icon-star.svg" alt="icon" class="icon-star"></div>
+      <h1 class="card-rating-title">How did we do?</h1>
+      <p class="card-rating-text">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <div class="flex-group">
+        <button class="rating-star">1</button>
+        <button class="rating-star">2</button>
+        <button class="rating-star">3</button>
+        <button class="rating-star">4</button>
+        <button class="rating-star">5</button>
+      </div>
+      <button class="btn-card">Submit</button>
+    </article>
+
+    <!-- Thank you state start -->
+    <article class="card-thanks hidden">
+      <img src="./images/illustration-thank-you.svg" alt="icon-thanks" class="card-thanks-img">
+      <p class="rating-selected">You selected 1 out of 5</p>
+      <h2 class="card-thanks-title">Thank you!</h2>
+      <p class="card-thanks-text">
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
+    </article>
+
+  </main>
+
+</body>
+
+</html>
